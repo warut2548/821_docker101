@@ -1,0 +1,9 @@
+docker -v เช็คเวอร์ชั่น
+docker ps แสดงทั้งหมด 
+docker ps --all
+docker run busybox ping google.com รันเรื่อยๆ
+docker stop id หยุดทำงาน
+docker rm id เครียร์ทิ้ง
+docker run nginx
+docker run -p 80:80 nginx เปิดหน้าเว็ป localhost
+docker run -p 9000:80 nginx เปิดหน้าเว็ป localhost:9000
